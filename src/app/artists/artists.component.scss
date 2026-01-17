@@ -1,160 +1,168 @@
 main {
-  display:flex;
+  display: flex;
   justify-content: center;
-  background: radial-gradient(
-    circle farthest-side at 0% 50%,
-    #282828 23.5%,
-    rgba(255, 170, 0, 0) 0
-  )
-  21px 30px,
-radial-gradient(
-    circle farthest-side at 0% 50%,
-    #2c3539 24%,
-    rgba(240, 166, 17, 0) 0
-  )
-  19px 30px,
-linear-gradient(
-    #282828 14%,
-    rgba(240, 166, 17, 0) 0,
-    rgba(240, 166, 17, 0) 85%,
-    #282828 0
-  )
-  0 0,
-linear-gradient(
-    150deg,
-    #282828 24%,
-    #2c3539 0,
-    #2c3539 26%,
-    rgba(240, 166, 17, 0) 0,
-    rgba(240, 166, 17, 0) 74%,
-    #2c3539 0,
-    #2c3539 76%,
-    #282828 0
-  )
-  0 0,
-linear-gradient(
-    30deg,
-    #282828 24%,
-    #2c3539 0,
-    #2c3539 26%,
-    rgba(240, 166, 17, 0) 0,
-    rgba(240, 166, 17, 0) 74%,
-    #2c3539 0,
-    #2c3539 76%,
-    #282828 0
-  )
-  0 0,
-linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
-  #282828;
-background-size: 40px 60px;
+  background:
+    radial-gradient(
+        circle farthest-side at 0% 50%,
+        #282828 23.5%,
+        rgba(255, 170, 0, 0) 0
+      )
+      21px 30px,
+    radial-gradient(
+        circle farthest-side at 0% 50%,
+        #2c3539 24%,
+        rgba(240, 166, 17, 0) 0
+      )
+      19px 30px,
+    linear-gradient(
+        #282828 14%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 85%,
+        #282828 0
+      )
+      0 0,
+    linear-gradient(
+        150deg,
+        #282828 24%,
+        #2c3539 0,
+        #2c3539 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #2c3539 0,
+        #2c3539 76%,
+        #282828 0
+      )
+      0 0,
+    linear-gradient(
+        30deg,
+        #282828 24%,
+        #2c3539 0,
+        #2c3539 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #2c3539 0,
+        #2c3539 76%,
+        #282828 0
+      )
+      0 0,
+    linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
+      #282828;
+  background-size: 40px 60px;
 
   .artists {
-    padding-left:5%;
-    padding-right:5%;
-    max-width:1920px;
-    width:100%;
-    padding-top:15%;
-    padding-bottom:5%;
-    display:flex;
-    flex-direction:column;
-    gap:220px;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1920px;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 220px;
 
     .artist-one {
-      display:flex;
+      display: flex;
       flex-direction: column;
-      width:100%;
-      height:1640px;
-
+      width: 100%;
+      height: 1640px;
 
       .artist-info {
-        display:flex;
-        align-items:start;
+        display: flex;
+        align-items: start;
         justify-content: space-evenly;
-        width:100%;
-        height:600px;
+        width: 100%;
+        height: 600px;
 
         .artist-img {
-          width:34%;
-          height:100%;
-          display:flex;
+          height: 100%;
+          display: flex;
           align-items: center;
+          justify-content: center;
 
-          img{
-            width:100%;
-            border-radius:8px;
+          img {
+            width: 420px;
+            height: 420px;
+            overflow: hidden;
+            border-radius: 8px;
           }
         }
         article {
-          width:52%;
-          display:flex;
-          flex-direction:column;
+          width: 52%;
+          display: flex;
+          flex-direction: column;
 
           .name {
             font-size: 60px;
-            margin:-25px 0 20px 0;
-            color:white;
+            margin: 0px 0 10px 0;
+            color: white;
             white-space: nowrap;
           }
 
           .introduction {
-            font-size:32px;
-            margin:20px 0 40px 0;
-            color:white;
+            font-size: 32px;
+            margin: 20px 0 40px 0;
+            color: white;
+            text-align: justify;
           }
 
           .preference {
-            font-size:30px;
-            margin:10px 0 10px 0;
-            color:white;
+            font-size: 30px;
+            margin: 10px 0 10px 0;
+            color: white;
+            text-align: justify;
           }
 
           .style {
-            font-size:30px;
-            margin:10px 0 68px 0;
-            color:white;
+            font-size: 30px;
+            margin: 10px 0 68px 0;
+            color: white;
+            text-align: justify;
           }
 
           .contacts {
-            display:flex;
+            display: flex;
             align-items: center;
             justify-content: space-evenly;
-            width:40%;
+            width: 40%;
 
             .contact-btn {
-              width:180px;
-              height:48px;
-              display:flex;
+              width: 180px;
+              height: 48px;
+              display: flex;
               align-items: center;
               justify-content: center;
               text-decoration: none;
-              color:white;
-              font-size:24px;
-              font-weight:500;
-              border:solid 1px rgb(255, 255, 255);
-              border-radius:28px;
+              color: white;
+              font-size: 24px;
+              font-weight: 500;
+              border: solid 1px rgb(255, 255, 255);
+              border-radius: 28px;
             }
           }
-
         }
       }
 
       .artist-collection {
         width: 100%;
         height: 1000px;
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         h3 {
-          font-size:44px;
-          color:white;
+          font-size: 44px;
+          color: white;
         }
-      
-        #item-1, #item-2, #item-3, #item-4, #item-5 {
+
+        #item-1,
+        #item-2,
+        #item-3,
+        #item-4,
+        #item-5 {
           display: none;
         }
-        
+
         .card {
           position: absolute;
           width: 60%;
@@ -165,7 +173,7 @@ background-size: 40px 60px;
           transition: transform 0.4s ease;
           cursor: pointer;
         }
-        
+
         .container {
           width: 100%;
           max-width: 800px;
@@ -177,21 +185,21 @@ background-size: 40px 60px;
           flex-direction: column;
           align-items: center;
         }
-        
+
         .cards {
           position: relative;
           width: 100%;
           height: 100%;
           margin-bottom: 20px;
         }
-        
+
         img {
           width: 100%;
           height: 100%;
           border-radius: 10px;
           object-fit: cover;
         }
-        
+
         /* Rules for 6 cards */
         #item-1:checked ~ .cards #tattoo-4,
         #item-2:checked ~ .cards #tattoo-5,
@@ -202,7 +210,7 @@ background-size: 40px 60px;
           opacity: 0.4;
           z-index: 0;
         }
-        
+
         #item-1:checked ~ .cards #tattoo-5,
         #item-2:checked ~ .cards #tattoo-1,
         #item-3:checked ~ .cards #tattoo-2,
@@ -212,7 +220,7 @@ background-size: 40px 60px;
           opacity: 0.6;
           z-index: 1;
         }
-        
+
         #item-1:checked ~ .cards #tattoo-1,
         #item-2:checked ~ .cards #tattoo-2,
         #item-3:checked ~ .cards #tattoo-3,
@@ -222,7 +230,7 @@ background-size: 40px 60px;
           opacity: 1;
           z-index: 2;
         }
-        
+
         #item-1:checked ~ .cards #tattoo-2,
         #item-2:checked ~ .cards #tattoo-3,
         #item-3:checked ~ .cards #tattoo-4,
@@ -232,7 +240,7 @@ background-size: 40px 60px;
           opacity: 0.6;
           z-index: 1;
         }
-        
+
         #item-1:checked ~ .cards #tattoo-3,
         #item-2:checked ~ .cards #tattoo-4,
         #item-3:checked ~ .cards #tattoo-5,
@@ -242,398 +250,407 @@ background-size: 40px 60px;
           opacity: 0.4;
           z-index: 0;
         }
-        
-     
-        
+
+        img {
+          box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+      }
+    }
+
+    .artist-two {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 1640px;
+
+      .artist-info {
+        display: flex;
+        align-items: start;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 600px;
+
+        .artist-img {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
           img {
-            box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+            width: 420px;
+            height: 420px;
+            overflow: hidden;
+            border-radius: 8px;
+          }
+        }
+        article {
+          width: 52%;
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+
+          .name {
+            font-size: 60px;
+            margin: 0px 0 10px 0;
+            color: white;
+            white-space: nowrap;
+          }
+
+          .introduction {
+            font-size: 28px;
+            margin: 20px 0 40px 0;
+            color: white;
+            text-align: justify;
+          }
+
+          .preference {
+            font-size: 28px;
+            margin: 10px 0 10px 0;
+            color: white;
+            text-align: justify;
+          }
+
+          .style {
+            font-size: 28px;
+            margin: 10px 0 28px 0;
+            color: white;
+            text-align: justify;
+          }
+
+          .contacts {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 40%;
+            flex-direction: row-reverse;
+
+            .contact-btn {
+              width: 180px;
+              height: 48px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              color: white;
+              font-size: 24px;
+              font-weight: 500;
+              border: solid 1px rgb(255, 255, 255);
+              border-radius: 28px;
+            }
           }
         }
       }
 
-      .artist-two {
-        display:flex;
+      .artist-collection {
+        width: 100%;
+        height: 1000px;
+        display: flex;
         flex-direction: column;
-        width:100%;
-        height:1640px;
-  
-  
-        .artist-info {
-          display:flex;
-          align-items:start;
-          flex-direction:row-reverse;
-          justify-content: space-evenly;
-          width:100%;
-          height:600px;
-  
-          .artist-img {
-            width:34%;
-            height:100%;
-            display:flex;
-            align-items: center;
-  
-            img{
-              width:100%;
-              border-radius:8px;
-            }
-          }
-          article {
-            width:52%;
-            display:flex;
-            flex-direction:column;
-  
-            .name {
-              font-size: 60px;
-              margin:40px 0 10px 0;
-              color:white;
-              white-space: nowrap;
-            }
-  
-            .introduction {
-              font-size:28px;
-              margin:20px 0 40px 0;
-              color:white;
-            }
-  
-            .preference {
-              font-size:28px;
-              margin:10px 0 10px 0;
-              color:white;
-            }
-  
-            .style {
-              font-size:28px;
-              margin:10px 0 28px 0;
-              color:white;
-            }
-  
-            .contacts {
-              display:flex;
-              align-items: center;
-              justify-content: space-evenly;
-              width:40%;
-  
-              .contact-btn {
-                width:180px;
-                height:48px;
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                text-decoration: none;
-                color:white;
-                font-size:24px;
-                font-weight:500;
-                border:solid 1px rgb(255, 255, 255);
-                border-radius:28px;
-              }
-            }
-  
-          }
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          font-size: 44px;
+          color: white;
         }
-  
-        .artist-collection {
+
+        #c2-item-1,
+        #c2-item-2,
+        #c2-item-3,
+        #c2-item-4,
+        #c2-item-5 {
+          display: none;
+        }
+
+        .card {
+          position: absolute;
+          width: 60%;
+          height: 100%;
+          left: 0;
+          right: 0;
+          margin: auto;
+          transition: transform 0.4s ease;
+          cursor: pointer;
+        }
+
+        .container {
           width: 100%;
-          height: 1000px;
-          display:flex;
+          max-width: 800px;
+          max-height: 800px;
+          height: 100%;
+          transform-style: preserve-3d;
+          display: flex;
+          justify-content: center;
           flex-direction: column;
           align-items: center;
+        }
+
+        .cards {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          margin-bottom: 20px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+
+        /* Rules for 6 cards */
+        #c2-item-1:checked ~ .cards #c2-tattoo-4,
+        #c2-item-2:checked ~ .cards #c2-tattoo-5,
+        #c2-item-3:checked ~ .cards #c2-tattoo-1,
+        #c2-item-4:checked ~ .cards #c2-tattoo-2,
+        #c2-item-5:checked ~ .cards #c2-tattoo-3 {
+          transform: translatex(-80%) scale(0.6);
+          opacity: 0.4;
+          z-index: 0;
+        }
+
+        #c2-item-1:checked ~ .cards #c2-tattoo-5,
+        #c2-item-2:checked ~ .cards #c2-tattoo-1,
+        #c2-item-3:checked ~ .cards #c2-tattoo-2,
+        #c2-item-4:checked ~ .cards #c2-tattoo-3,
+        #c2-item-5:checked ~ .cards #c2-tattoo-4 {
+          transform: translatex(-40%) scale(0.8);
+          opacity: 0.6;
+          z-index: 1;
+        }
+
+        #c2-item-1:checked ~ .cards #c2-tattoo-1,
+        #c2-item-2:checked ~ .cards #c2-tattoo-2,
+        #c2-item-3:checked ~ .cards #c2-tattoo-3,
+        #c2-item-4:checked ~ .cards #c2-tattoo-4,
+        #c2-item-5:checked ~ .cards #c2-tattoo-5 {
+          transform: translatex(0) scale(1);
+          opacity: 1;
+          z-index: 2;
+        }
+
+        #c2-item-1:checked ~ .cards #c2-tattoo-2,
+        #c2-item-2:checked ~ .cards #c2-tattoo-3,
+        #c2-item-3:checked ~ .cards #c2-tattoo-4,
+        #c2-item-4:checked ~ .cards #c2-tattoo-5,
+        #c2-item-5:checked ~ .cards #c2-tattoo-1 {
+          transform: translatex(40%) scale(0.8);
+          opacity: 0.6;
+          z-index: 1;
+        }
+
+        #c2-item-1:checked ~ .cards #c2-tattoo-3,
+        #c2-item-2:checked ~ .cards #c2-tattoo-4,
+        #c2-item-3:checked ~ .cards #c2-tattoo-5,
+        #c2-item-4:checked ~ .cards #c2-tattoo-1,
+        #c2-item-5:checked ~ .cards #c2-tattoo-2 {
+          transform: translatex(80%) scale(0.6);
+          opacity: 0.4;
+          z-index: 0;
+        }
+
+        img {
+          box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+      }
+    }
+
+    .artist-three {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 1640px;
+
+      .artist-info {
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 600px;
+
+        .artist-img {
+          height: 100%;
+          display: flex;
+          align-items: center;
           justify-content: center;
-  
-          h3 {
-            font-size:44px;
-            color:white;
-          }
-        
-          #c2-item-1, #c2-item-2, #c2-item-3, #c2-item-4, #c2-item-5 {
-            display: none;
-          }
-          
-          .card {
-            position: absolute;
-            width: 60%;
-            height: 100%;
-            left: 0;
-            right: 0;
-            margin: auto;
-            transition: transform 0.4s ease;
-            cursor: pointer;
-          }
-          
-          .container {
-            width: 100%;
-            max-width: 800px;
-            max-height: 800px;
-            height: 100%;
-            transform-style: preserve-3d;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-          }
-          
-          .cards {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            margin-bottom: 20px;
-          }
-          
+
           img {
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-            object-fit: cover;
+            width: 420px;
+            height: 420px;
+            overflow: hidden;
+            border-radius: 8px;
           }
-          
-          /* Rules for 6 cards */
-          #c2-item-1:checked ~ .cards #c2-tattoo-4,
-          #c2-item-2:checked ~ .cards #c2-tattoo-5,
-          #c2-item-3:checked ~ .cards #c2-tattoo-1,
-          #c2-item-4:checked ~ .cards #c2-tattoo-2,
-          #c2-item-5:checked ~ .cards #c2-tattoo-3 {
-              transform: translatex(-80%) scale(0.6);
-              opacity: 0.4;
-              z-index: 0;
+        }
+        article {
+          width: 52%;
+          display: flex;
+          flex-direction: column;
+
+          .name {
+            font-size: 60px;
+            margin: 0px 0 10px 0;
+            color: white;
+            white-space: nowrap;
           }
-          
-          #c2-item-1:checked ~ .cards #c2-tattoo-5,
-          #c2-item-2:checked ~ .cards #c2-tattoo-1,
-          #c2-item-3:checked ~ .cards #c2-tattoo-2,
-          #c2-item-4:checked ~ .cards #c2-tattoo-3,
-          #c2-item-5:checked ~ .cards #c2-tattoo-4 {
-              transform: translatex(-40%) scale(0.8);
-              opacity: 0.6;
-              z-index: 1;
+
+          .introduction {
+            font-size: 28px;
+            margin: 20px 0 40px 0;
+            color: white;
+            text-align: justify;
           }
-          
-          #c2-item-1:checked ~ .cards #c2-tattoo-1,
-          #c2-item-2:checked ~ .cards #c2-tattoo-2,
-          #c2-item-3:checked ~ .cards #c2-tattoo-3,
-          #c2-item-4:checked ~ .cards #c2-tattoo-4,
-          #c2-item-5:checked ~ .cards #c2-tattoo-5 {
-              transform: translatex(0) scale(1);
-              opacity: 1;
-              z-index: 2;
+
+          .preference {
+            font-size: 28px;
+            margin: 10px 0 10px 0;
+            color: white;
+            text-align: justify;
           }
-          
-          #c2-item-1:checked ~ .cards #c2-tattoo-2,
-          #c2-item-2:checked ~ .cards #c2-tattoo-3,
-          #c2-item-3:checked ~ .cards #c2-tattoo-4,
-          #c2-item-4:checked ~ .cards #c2-tattoo-5,
-          #c2-item-5:checked ~ .cards #c2-tattoo-1 {
-              transform: translatex(40%) scale(0.8);
-              opacity: 0.6;
-              z-index: 1;
+
+          .style {
+            font-size: 28px;
+            margin: 10px 0 28px 0;
+            color: white;
+            text-align: justify;
           }
-          
-          #c2-item-1:checked ~ .cards #c2-tattoo-3,
-          #c2-item-2:checked ~ .cards #c2-tattoo-4,
-          #c2-item-3:checked ~ .cards #c2-tattoo-5,
-          #c2-item-4:checked ~ .cards #c2-tattoo-1,
-          #c2-item-5:checked ~ .cards #c2-tattoo-2 {
-              transform: translatex(80%) scale(0.6);
-              opacity: 0.4;
-              z-index: 0;
-          }
-          
-       
-          
-            img {
-              box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+
+          .contacts {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 40%;
+
+            .contact-btn {
+              width: 180px;
+              height: 48px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              color: white;
+              font-size: 24px;
+              font-weight: 500;
+              border: solid 1px rgb(255, 255, 255);
+              border-radius: 28px;
             }
           }
         }
+      }
 
-        .artist-three {
-          display:flex;
+      .artist-collection {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          font-size: 44px;
+          color: white;
+        }
+
+        #c3-item-1,
+        #c3-item-2,
+        #c3-item-3,
+        #c3-item-4,
+        #c3-item-5 {
+          display: none;
+        }
+
+        .card {
+          position: absolute;
+          width: 60%;
+          height: 100%;
+          left: 0;
+          right: 0;
+          margin: auto;
+          transition: transform 0.4s ease;
+          cursor: pointer;
+        }
+
+        .container {
+          width: 100%;
+          max-width: 800px;
+          max-height: 800px;
+          height: 100%;
+          transform-style: preserve-3d;
+          display: flex;
+          justify-content: center;
           flex-direction: column;
-          width:100%;
-          height:1640px;
-    
-    
-          .artist-info {
-            display:flex;
-            align-items:start;
-            justify-content: space-evenly;
-            width:100%;
-            height:600px;
-    
-            .artist-img {
-              width:34%;
-              height:100%;
-              display:flex;
-              align-items: center;
-    
-              img{
-                width:100%;
-                border-radius:8px;
-              }
-            }
-            article {
-              width:52%;
-              display:flex;
-              flex-direction:column;
-    
-              .name {
-                font-size: 60px;
-                margin:40px 0 10px 0;
-                color:white;
-                white-space: nowrap;
-              }
-    
-              .introduction {
-                font-size:28px;
-                margin:20px 0 40px 0;
-                color:white;
-              }
-    
-              .preference {
-                font-size:28px;
-                margin:10px 0 10px 0;
-                color:white;
-              }
-    
-              .style {
-                font-size:28px;
-                margin:10px 0 28px 0;
-                color:white;
-              }
-    
-              .contacts {
-                display:flex;
-                align-items: center;
-                justify-content: space-evenly;
-                width:40%;
-    
-                .contact-btn {
-                  width:180px;
-                  height:48px;
-                  display:flex;
-                  align-items: center;
-                  justify-content: center;
-                  text-decoration: none;
-                  color:white;
-                  font-size:24px;
-                  font-weight:500;
-                  border:solid 1px rgb(255, 255, 255);
-                  border-radius:28px;
-                }
-              }
-    
-            }
-          }
-    
-          .artist-collection {
-            width: 100%;
-            height: 1000px;
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-    
-            h3 {
-              font-size:44px;
-              color:white;
-            }
-          
-            #c3-item-1, #c3-item-2, #c3-item-3, #c3-item-4, #c3-item-5 {
-              display: none;
-            }
-            
-            .card {
-              position: absolute;
-              width: 60%;
-              height: 100%;
-              left: 0;
-              right: 0;
-              margin: auto;
-              transition: transform 0.4s ease;
-              cursor: pointer;
-            }
-            
-            .container {
-              width: 100%;
-              max-width: 800px;
-              max-height: 800px;
-              height: 100%;
-              transform-style: preserve-3d;
-              display: flex;
-              justify-content: center;
-              flex-direction: column;
-              align-items: center;
-            }
-            
-            .cards {
-              position: relative;
-              width: 100%;
-              height: 100%;
-              margin-bottom: 20px;
-            }
-            
-            img {
-              width: 100%;
-              height: 100%;
-              border-radius: 10px;
-              object-fit: cover;
-            }
-            
-            #c3-item-1:checked ~ .cards #c3-tattoo-4,
-            #c3-item-2:checked ~ .cards #c3-tattoo-5,
-            #c3-item-3:checked ~ .cards #c3-tattoo-1,
-            #c3-item-4:checked ~ .cards #c3-tattoo-2,
-            #c3-item-5:checked ~ .cards #c3-tattoo-3 {
-                transform: translatex(-80%) scale(0.6);
-                opacity: 0.4;
-                z-index: 0;
-            }
-            
-            #c3-item-1:checked ~ .cards #c3-tattoo-5,
-            #c3-item-2:checked ~ .cards #c3-tattoo-1,
-            #c3-item-3:checked ~ .cards #c3-tattoo-2,
-            #c3-item-4:checked ~ .cards #c3-tattoo-3,
-            #c3-item-5:checked ~ .cards #c3-tattoo-4 {
-                transform: translatex(-40%) scale(0.8);
-                opacity: 0.6;
-                z-index: 1;
-            }
-            
-            #c3-item-1:checked ~ .cards #c3-tattoo-1,
-            #c3-item-2:checked ~ .cards #c3-tattoo-2,
-            #c3-item-3:checked ~ .cards #c3-tattoo-3,
-            #c3-item-4:checked ~ .cards #c3-tattoo-4,
-            #c3-item-5:checked ~ .cards #c3-tattoo-5 {
-                transform: translatex(0) scale(1);
-                opacity: 1;
-                z-index: 2;
-            }
-            
-            #c3-item-1:checked ~ .cards #c3-tattoo-2,
-            #c3-item-2:checked ~ .cards #c3-tattoo-3,
-            #c3-item-3:checked ~ .cards #c3-tattoo-4,
-            #c3-item-4:checked ~ .cards #c3-tattoo-5,
-            #c3-item-5:checked ~ .cards #c3-tattoo-1 {
-                transform: translatex(40%) scale(0.8);
-                opacity: 0.6;
-                z-index: 1;
-            }
-            
-            #c3-item-1:checked ~ .cards #c3-tattoo-3,
-            #c3-item-2:checked ~ .cards #c3-tattoo-4,
-            #c3-item-3:checked ~ .cards #c3-tattoo-5,
-            #c3-item-4:checked ~ .cards #c3-tattoo-1,
-            #c3-item-5:checked ~ .cards #c3-tattoo-2 {
-                transform: translatex(80%) scale(0.6);
-                opacity: 0.4;
-                z-index: 0;
-            }
-            
-         
-            
-              img {
-                box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-              }
-            }
-          }
+          align-items: center;
+        }
 
+        .cards {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          margin-bottom: 20px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+
+        #c3-item-1:checked ~ .cards #c3-tattoo-4,
+        #c3-item-2:checked ~ .cards #c3-tattoo-5,
+        #c3-item-3:checked ~ .cards #c3-tattoo-1,
+        #c3-item-4:checked ~ .cards #c3-tattoo-2,
+        #c3-item-5:checked ~ .cards #c3-tattoo-3 {
+          transform: translatex(-80%) scale(0.6);
+          opacity: 0.4;
+          z-index: 0;
+        }
+
+        #c3-item-1:checked ~ .cards #c3-tattoo-5,
+        #c3-item-2:checked ~ .cards #c3-tattoo-1,
+        #c3-item-3:checked ~ .cards #c3-tattoo-2,
+        #c3-item-4:checked ~ .cards #c3-tattoo-3,
+        #c3-item-5:checked ~ .cards #c3-tattoo-4 {
+          transform: translatex(-40%) scale(0.8);
+          opacity: 0.6;
+          z-index: 1;
+        }
+
+        #c3-item-1:checked ~ .cards #c3-tattoo-1,
+        #c3-item-2:checked ~ .cards #c3-tattoo-2,
+        #c3-item-3:checked ~ .cards #c3-tattoo-3,
+        #c3-item-4:checked ~ .cards #c3-tattoo-4,
+        #c3-item-5:checked ~ .cards #c3-tattoo-5 {
+          transform: translatex(0) scale(1);
+          opacity: 1;
+          z-index: 2;
+        }
+
+        #c3-item-1:checked ~ .cards #c3-tattoo-2,
+        #c3-item-2:checked ~ .cards #c3-tattoo-3,
+        #c3-item-3:checked ~ .cards #c3-tattoo-4,
+        #c3-item-4:checked ~ .cards #c3-tattoo-5,
+        #c3-item-5:checked ~ .cards #c3-tattoo-1 {
+          transform: translatex(40%) scale(0.8);
+          opacity: 0.6;
+          z-index: 1;
+        }
+
+        #c3-item-1:checked ~ .cards #c3-tattoo-3,
+        #c3-item-2:checked ~ .cards #c3-tattoo-4,
+        #c3-item-3:checked ~ .cards #c3-tattoo-5,
+        #c3-item-4:checked ~ .cards #c3-tattoo-1,
+        #c3-item-5:checked ~ .cards #c3-tattoo-2 {
+          transform: translatex(80%) scale(0.6);
+          opacity: 0.4;
+          z-index: 0;
+        }
+
+        img {
+          box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+      }
     }
   }
+}
