@@ -1,0 +1,264 @@
+<main>
+  <section class="collection" id="collection">
+   
+    <article>
+      <h1>Our Art Collection</h1>
+      <h2>hope you find some inpriration</h2>
+    </article>
+
+    <div class="collection-grid">
+
+      <div class="card" 
+      [class.flipped]="flippedCards[0]"
+      (click)="toggleCard(0)" >
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/angle-2.jpg" alt="Produkt 1">
+          </div>
+          <div class="card-back">
+            <h3>Bewertung</h3>
+            <div class="artist-div">
+              <p>Artist :</p>
+              <p>Meister Yoda</p>
+            </div>
+            <div class="customer-div">
+              <p>Bewertung von</p>
+              <p>Meister Yoda</p>
+            </div>
+            <div class="rating-div">
+              <p>ich war sehr zufrieden mit Meister Yoda.</p>
+              <p>er war sehr freundlich und hat mich sehr gut beraten.</p>
+              <p>ich kann ihn wärmstens empfehlen.</p>
+            </div>
+            <div class="date">
+              21.02.2024
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[1]"
+      (click)="toggleCard(1)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/angle.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[2]"
+      (click)="toggleCard(2)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/cat.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[3]"
+      (click)="toggleCard(3)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/cat-2.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[4]"
+      (click)="toggleCard(4)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/dragon.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[5]"
+      (click)="toggleCard(5)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/feather.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[6]"
+      (click)="toggleCard(6)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/katana.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[7]"
+      (click)="toggleCard(7)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/music-heart.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[8]"
+      (click)="toggleCard(8)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/one-piece-scull.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[9]"
+      (click)="toggleCard(9)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/rose.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[10]"
+      (click)="toggleCard(10)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/rose-2.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[11]"
+      (click)="toggleCard(11)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/scull.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[12]"
+      (click)="toggleCard(12)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/star-finger.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[13]"
+      (click)="toggleCard(13)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/world-map.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[14]"
+      (click)="toggleCard(14)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/yin-yang.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card"
+      [class.flipped]="flippedCards[15]"
+      (click)="toggleCard(15)">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/img/tattoos-2/feather.jpg" alt="image2">
+          </div>
+          <div class="card-back">
+            <p>Kundenbewertung: "Fantastisches Produkt!"</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+    <article class="hidden-gems-into" >
+      <h1>Our hidden Gems</h1>
+      <h2>are you interested in what our Artists have developed ?</h2>
+      <h2>Visit us in our studio, we will welcome you with a nice drink and a lot of inspiration</h2>
+    </article>
+
+       <div class="hidden-gems">
+
+        <div class="gem" >
+          <img src="assets/img/tattoos-2/angle-2.jpg" alt="Produkt 1">
+        </div>
+
+        <div class="gem" >
+          <img src="assets/img/tattoos-2/dragon.jpg" alt="Produkt 1">
+        </div>
+
+        <div class="gem" >
+          <img src="assets/img/tattoos-2/music-heart.jpg" alt="Produkt 1">
+        </div>
+
+        <div class="gem" >
+          <img src="assets/img/tattoos-2/scull.jpg" alt="Produkt 1">
+        </div>
+
+    </div>  
+
+  </section>
+</main>

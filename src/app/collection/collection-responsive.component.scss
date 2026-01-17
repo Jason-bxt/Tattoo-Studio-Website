@@ -1,0 +1,732 @@
+@media(max-width:1400px){
+  main {
+    .collection {
+      .collection-grid {
+        .card {
+          .card-inner {
+    
+            .card-back {
+              h3 {
+                font-size:36px;
+                margin:32px 0 0 0;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 20px;
+                  margin:16px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 18px;
+                  margin:0px 0 20px 0;
+                }
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 18px; 
+                }
+              }
+  
+              .date {
+                font-size:20px;
+              }
+            
+            }
+          }    
+        }
+      }
+    }
+  }
+}
+ 
+
+@media(max-width:1280px){
+  main {
+    .collection {
+      article {
+        margin-bottom:40px;
+        margin-top:100px;
+  
+        h1 {
+          font-size: 88px;
+        }
+  
+        h2 {
+          font-size: 36px;
+          margin-top: 12px;
+        
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:40px;
+                margin:32px 0 0 0;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 22px;
+                  margin:16px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 22px;
+                  margin:0px 0 24px 0;
+                }
+  
+              }
+  
+              .rating-div {
+
+                p {
+                  font-size: 20px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:24px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+  
+        h1 {
+          font-size: 88px;
+        }
+  
+        h2 {
+          font-size: 36px;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:1140px){
+  main {
+    .collection {
+   
+  
+      .collection-grid {
+        grid-template-columns: 1fr 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:48px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 24px;
+                  margin:20px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 24px;
+                  margin:0px 0 32px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 24px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:24px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:980px){
+  main {
+    .collection {  
+      article {
+        h1 {
+          font-size: 80px;
+          margin:0;
+        }
+        h2 {
+          font-size: 32px;
+          margin-top: 16px;
+        }
+      }
+      .hidden-gems-into {
+  
+        h1 {
+          font-size: 80px;
+        }
+  
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
+
+
+@media(max-width:764px){
+  main {
+    .collection {
+      article {
+        h1 {
+          font-size: 72px;
+        }
+  
+        h2 {
+          font-size: 32px;
+          margin-top: 12px;
+        
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:40px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 20px;
+                  margin:20px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 20px;
+                  margin:0px 0 20px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 20px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:20px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+  
+        h1 {
+          font-size: 72px;
+          margin:0 0 40px 0;
+        }
+  
+        h2 {
+          font-size: 32px;
+          margin:16px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:664px){
+  main {
+    .collection {
+      width:90%;
+      article {
+        h1 {
+          font-size: 64px;
+        }
+  
+        h2 {
+          font-size: 28px;
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr;
+       
+
+        .card {
+       
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:60px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 24px;
+                  margin:20px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 24px;
+                  margin:0px 0 32px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 24px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:24px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+  
+        h1 {
+          font-size: 64px;
+          margin:0 0 20px 0;
+        }
+  
+        h2 {
+          font-size: 24px;
+          margin:8px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:564px){
+  main {
+    .collection {
+      width:90%;
+      article {
+        h1 {
+          font-size: 52px;
+        }
+  
+        h2 {
+          font-size: 26px;
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr;
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+        margin-bottom: 80px;
+  
+        h1 {
+          font-size: 52px;
+          margin:0 0 20px 0;
+        }
+  
+        h2 {
+          font-size: 22px;
+          margin:8px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:480px){
+  main {
+    .collection {
+      width:90%;
+      article {
+        h1 {
+          font-size: 48px;
+        }
+  
+        h2 {
+          font-size: 24px;
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:48px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 20px;
+                  margin:24px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 20px;
+                  margin:0px 0 40px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 20px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:20px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+        margin-bottom: 80px;
+  
+        h1 {
+          font-size: 48px;
+          margin:0 0 20px 0;
+        }
+  
+        h2 {
+          font-size: 20px;
+          margin:8px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:380px){
+  main {
+    .collection {
+      width:90%;
+      article {
+        h1 {
+          font-size: 36px;
+        }
+  
+        h2 {
+          font-size: 20px;
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:44px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 18px;
+                  margin:24px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 18px;
+                  margin:0px 0 40px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 18px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:18px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+        margin-bottom: 60px;
+  
+  
+        h1 {
+          font-size: 40px;
+          margin:0 0 8px 0;
+        }
+  
+        h2 {
+          font-size: 20px;
+          margin:8px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:340px){
+  main {
+    .collection {
+      width:90%;
+      article {
+        h1 {
+          font-size: 32px;
+        }
+  
+        h2 {
+          font-size: 18px;
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:40px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 16px;
+                  margin:24px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 16px;
+                  margin:0px 0 40px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 16px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:16px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+        margin-bottom: 40px;
+  
+  
+        h1 {
+          font-size: 36px;
+          margin:0 0 8px 0;
+        }
+  
+        h2 {
+          font-size: 16px;
+          margin:8px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}
+
+
+@media(max-width:320px){
+  main {
+    .collection {
+      width:90%;
+      article {
+        h1 {
+          font-size: 30px;
+        }
+  
+        h2 {
+          font-size: 16px;
+        }
+      }
+  
+      .collection-grid {
+        grid-template-columns: 1fr;
+        .card {
+          .card-inner {
+            .card-back {
+              h3 {
+                font-size:38px;
+              }
+  
+              .artist-div {
+                p {
+                  font-size: 16px;
+                  margin:24px 0 8px 0;
+                }
+              }
+  
+              .customer-div {
+                p {
+                  font-size: 16px;
+                  margin:0px 0 40px 0;
+                }
+  
+              }
+  
+              .rating-div {
+                p {
+                  font-size: 16px;
+                }
+  
+              }
+  
+              .date {
+                bottom:12px;
+                font-size:16px;
+              }
+            
+            }
+          }
+          
+        }
+      }
+  
+      .hidden-gems-into {
+        margin-top: 200px;
+        margin-bottom: 20px;
+  
+  
+        h1 {
+          font-size: 32px;
+          margin:0 0 8px 0;
+        }
+  
+        h2 {
+          font-size: 16px;
+          margin:8px 0 0 0;
+        }
+      }
+  
+      .hidden-gems {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+    }
+  }
+}

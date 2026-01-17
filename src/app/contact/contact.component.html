@@ -1,0 +1,80 @@
+<main>
+  <section id="contact" class="contact">
+
+    <section class="info">
+
+      <ul>
+        <li>Erstes Element</li>
+        <li>Zweites Element</li>
+        <li>Drittes Element</li>
+      </ul>
+      
+    </section>
+
+
+    
+    <section class="form-container">
+      <form class="form"  (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <div class="form-group">
+          <label for="name">Vorname</label>
+          <input #name="ngModel" [(ngModel)]="contactData.name" name="name" id="name" type="text" required>
+          @if(!name.valid && name.touched && submitted){
+            <span class="contact-error"></span>
+          }
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input #email="ngModel" [(ngModel)]="contactData.email" name="email" id="email" type="email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+          @if(!email.valid && name.touched && submitted){
+            <span class="contact-error"></span>
+          }
+        </div>
+    
+        <div class="form-group">
+          <label for="textarea">Motivewunsch</label>
+          <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message"  id="textarea" name="message" required></textarea>
+          @if(!message.valid && name.touched && submitted){
+            <span class="contact-error"></span>
+          }
+        </div>
+
+
+        
+        <div class="form-group">
+          <label for="textarea">Körperstelle</label>
+          <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
+        </div>
+    
+        <div class="form-group">
+          <label for="textarea">Wie hast du uns gefunden?</label>
+          <textarea required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
+        </div>
+
+        <div class="upload-container">
+          <div class="upload-box" (dragover)="onDragOver($event)" (drop)="onDrop($event)">
+            <p>DATEI DRAG & DROP</p>
+            <p>ODER</p>
+            <input type="file" id="fileInput" (change)="onFileSelected($event)" multiple hidden>
+            <label for="fileInput" class="file-input-label">DATEIEN DURCHSUCHEN</label>
+          </div>
+          <div class="file-count">{{ files.length }} VON 10</div>
+        </div>
+    
+        <button type="submit" class="form-submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <!-- <iframe
+    src="https://maps.app.goo.gl/vM65nAJLvgt9fnzY9"
+    width="100%"
+    height="500"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy">
+</iframe> -->
+
+
+
+  </section>
+</main>
