@@ -48,15 +48,25 @@ linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
   #282828;
 background-size: 40px 60px;
 
-.start-img {
-  width:100%;
-  height:100vh;
-  position:absolute;
-  filter:blur(10px);
-  box-shadow:0px 0px 30px rgba(227, 228, 237, 0.37);
-  border: 2px solid rgba(255, 255, 255, 0.18);
- 
+.start-img-container {
+  width: 100%;
+  height: 100vh;       // Container-Höhe entspricht der Viewport-Höhe
+  position: relative;  // wichtig für das absolute positionierte Bild
+  overflow: hidden;    // verhindert horizontales Scrollen
+
+  .start-img {
+    width: 100%;
+    height: 100%;       // passt sich der Container-Höhe an
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    object-fit: cover;  // Bild bleibt proportional und füllt den Container
+  }
 }
+
 
 
   .qualitys {
@@ -93,7 +103,8 @@ background-size: 40px 60px;
         -webkit-text-fill-color: transparent;
         color: transparent;
         z-index: 2;
-        margin:100px 0 320px 0;
+        margin:80px 0 200px 0;
+        text-align:center;
         
       }
       p {
@@ -101,6 +112,7 @@ background-size: 40px 60px;
         width:100%;
         color:rgb(197, 197, 197);
         z-index:2;
+        text-align:justify;
       
       }
       .certificat {
@@ -121,6 +133,8 @@ background-size: 40px 60px;
         display:flex;
         justify-content: center;
         margin-bottom:0px;
+
+       
       }
       h2 {
         font-size: 100px;
@@ -148,11 +162,12 @@ background-size: 40px 60px;
         margin-bottom:0;
       }
       p {
-        font-size: 28px;
+        font-size: 32px;
         color: white;
         display:flex;
         justify-content: center;
-        width:90%;
+        text-align:center;
+        
       
       }
       .certificat {
